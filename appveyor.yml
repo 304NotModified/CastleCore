@@ -76,3 +76,6 @@ for:
   artifacts:
   - path: build\*.nupkg
     name: core
+  - path: build\*.snupkg
+    name: core
+
