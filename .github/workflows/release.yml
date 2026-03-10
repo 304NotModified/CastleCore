@@ -37,7 +37,7 @@ jobs:
       - name: Upload nuget package
         uses: actions/upload-artifact@v6
         with:
-          compression-level: 0
+          compression-level: 0 # nupkg files are already compressed
           name: nupkg
           path: artifacts/*nupkg
 
